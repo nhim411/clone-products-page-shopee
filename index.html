@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Reset CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome-free-5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="grid">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item nav__item--has-qr nav__item--separate">
+                Vào cừa hàng trên ứng dụng F8-shop
+                <!-- Header QR Code -->
+                <div class="nav__qr">
+                  <img
+                    src="./assets/img/qr_code.png"
+                    alt="QR code"
+                    class="nav__qr-img"
+                  />
+                  <div class="nav__apps">
+                    <a href="#" class="nav__qr-link">
+                      <img
+                        src="./assets/img/google_play.png"
+                        alt="Google Play"
+                        class="nav__qr-download_img"
+                    /></a>
+                    <a href="#" class="nav__qr-link">
+                      <img
+                        src="./assets/img/app_store.png"
+                        alt="App Store"
+                        class="nav__qr-download_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item">
+                <span class="nav__title--no-pointer">Kết nối</span>
+                <a href="" class="nav__icon-link"
+                  ><i class="nav__icon fab fa-facebook"></i
+                ></a>
+                <a href="" class="nav__icon-link"
+                  ><i class="nav__icon fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+            <ul class="nav__list">
+              <li class="nav__item nav__item--has-notify">
+                <a href="#" class="nav__item-link"
+                  ><i class="nav__icon far fa-bell"></i> Thông báo</a
+                >
+                <div class="nav__notify">
+                  <header class="nav__notify-header">
+                    <h3>Thông báo mới nhận</h3>
+                  </header>
+                  <ul class="nav__notify-list">
+                    <li class="nav__notify-item">
+                      <a href="" class="nav__notify-link">
+                        <img
+                          src="./assets/img/xmen.png"
+                          alt="product"
+                          class="nav__notify-img"
+                        />
+                        <div class="nav__notify-info">
+                          <span class="nav__notify-name"
+                            >Mỹ phẩm Xmen chính hãng</span
+                          >
+                          <span class="nav__notify-desc"
+                            >Mô tả mỹ phẩm Xmen chính hãng</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav__notify-item">
+                      <a href="" class="nav__notify-link">
+                        <img
+                          src="./assets/img/xmen.png"
+                          alt="product"
+                          class="nav__notify-img"
+                        />
+                        <div class="nav__notify-info">
+                          <span class="nav__notify-name"
+                            >Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Repellendus in corporis, molestias voluptate,
+                          </span>
+                          <span class="nav__notify-desc"
+                            >Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Atque repudiandae iure repellendus, doloribus
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="nav__notify-item nav__notify-item--viewed">
+                      <a href="" class="nav__notify-link">
+                        <img
+                          src="./assets/img/xmen.png"
+                          alt="product"
+                          class="nav__notify-img"
+                        />
+                        <div class="nav__notify-info">
+                          <span class="nav__notify-name"
+                            >Mỹ phẩm Xmen chính hãng</span
+                          >
+                          <span class="nav__notify-desc"
+                            >Mô tả mỹ phẩm Xmen chính hãng</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <footer class="nav__notify-footer">
+                    <a href="#" class="nav__notify-footer-btn">Xem tất cả</a>
+                  </footer>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__item-link"
+                  ><i class="nav__icon far fa-question-circle"></i> Hỗ trợ</a
+                >
+              </li>
+              <li class="nav__item">
+                <a
+                  href="#"
+                  class="nav__item-link nav__item-link--strong nav__item--separate"
+                  >Đăng kí</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__item-link nav__item-link--strong"
+                  >Đăng nhập</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="container"></div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
