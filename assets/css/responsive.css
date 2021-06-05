@@ -86,7 +86,8 @@
 
   /* Header mobile navbar */
   .header__mobile-bar-checkbox:checked ~ .header__mobile-bar-modal {
-    display: flex;
+    opacity: 1;
+    transform: translateX(0);
   }
 
   .header__search-history {
@@ -161,17 +162,6 @@
   }
   to {
     top: var(--header-height);
-    opacity: 1;
-  }
-}
-
-@keyframes SideIn {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
     opacity: 1;
   }
 }

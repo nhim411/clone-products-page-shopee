@@ -493,17 +493,18 @@
 
 .header__mobile-bar-modal {
   position: fixed;
+  display: flex;
   top: var(--header-height);
   left: 0;
   right: 0;
   bottom: 0;
   background-color: var(--white-color);
   z-index: 2;
-  display: none;
   justify-content: center;
   align-items: center;
-  transform: translateX(0);
-  animation: SideIn linear 0.2s;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.2s;
 }
 .header__mobile-bar-list {
   list-style: none;
@@ -514,7 +515,7 @@
   color: var(--text-color);
   display: block;
   margin-bottom: 30px;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 8px 16px;
 }
 
